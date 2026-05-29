@@ -206,7 +206,7 @@ public class EnemyAI : MonoBehaviour
         Vector3 randomDirection = Random.insideUnitSphere * _patrollingRadius;
         randomDirection += _player.position;
 
-        if (NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, _patrollingRadius, NavMesh.AllAreas))
+        if (NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, _patrollingRadius, 1))
         {
             float distanceToPlayer = Vector3.Distance(hit.position, _player.position);
 

@@ -297,6 +297,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2981946717379825510, guid: 68e978a15bedca6459a73e501a635e73, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7902366314218218367}
+    - targetCorrespondingSourceObject: {fileID: 2981946717379825510, guid: 68e978a15bedca6459a73e501a635e73, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7902366314218218368}
   m_SourcePrefab: {fileID: 100100000, guid: 68e978a15bedca6459a73e501a635e73, type: 3}
 --- !u!1 &7902366314218218365 stripped
 GameObject:
@@ -422,6 +425,18 @@ MonoBehaviour:
       data:
         ObserveOptionName: volume_music
         AudioSource: {fileID: 7902366314218218366}
+--- !u!114 &7902366314218218368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902366314218218365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18c22f3201f55c46b1c5d54ac9ba7a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorResetter
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
